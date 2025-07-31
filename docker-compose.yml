@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 312413
+      POSTGRES_DB: energy_dashboard
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    ports:
+      - "8501:8501"   
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://postgres:312413@postgres:5432/energy_dashboard
+    volumes:
+      - ./energy_demand_model.pkl:/app/energy_demand_model.pkl
+      - ./energy_data.csv:/app/energy_data.csv
+
+  pipeline:
+    build: .
+    command: python data_pipeline.py
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://postgres:312413@postgres:5432/energy_dashboard
+      - WEATHER_API_KEY=${WEATHER_API_KEY}
+    volumes:
+      - ./energy_demand_model.pkl:/app/energy_demand_model.pkl
+
+volumes:
+  postgres_data:

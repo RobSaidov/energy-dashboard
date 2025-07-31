@@ -1,0 +1,112 @@
+2025-07-26 13:06:38,369 - __main__ - INFO - ML model loaded successfully
+2025-07-26 13:06:38,372 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-26 13:06:38,372 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 13:06:38,373 - __main__ - INFO - Weather: {'temperature': 27.5, 'humidity': 70.3, 'weather': 'simulated'}
+2025-07-26 13:06:38,420 - __main__ - INFO - Saved 100 records to database
+2025-07-26 13:06:38,458 - __main__ - INFO - Updated predictions: 170.88 kWh
+2025-07-26 13:06:38,481 - __main__ - INFO - Pipeline stats: {'total_records': 72100, 'recent_records': 100, 'avg_recent_consumption': 1.7}
+2025-07-26 13:06:38,482 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 13:06:38,482 - __main__ - INFO - Data pipeline started. Running every 60 minutes...
+2025-07-26 13:06:38,482 - __main__ - INFO - Press Ctrl+C to stop
+2025-07-26 13:06:38,483 - apscheduler.scheduler - INFO - Added job "Energy Data Pipeline" to job store "default"
+2025-07-26 13:06:38,483 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-26 14:06:38,375 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 14:06:38 PDT)" (scheduled at 2025-07-26 14:06:38.372404-07:00)
+2025-07-26 14:06:38,376 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 14:06:38,376 - __main__ - INFO - Weather: {'temperature': 31.1, 'humidity': 74.1, 'weather': 'simulated'}
+2025-07-26 14:06:38,389 - __main__ - INFO - Anomaly generated for HH_026: 8.80 kWh
+2025-07-26 14:06:38,390 - __main__ - INFO - Anomaly generated for HH_099: 7.05 kWh
+2025-07-26 14:06:38,399 - __main__ - INFO - Saved 100 records to database
+2025-07-26 14:06:38,433 - __main__ - INFO - Updated predictions: 167.88 kWh
+2025-07-26 14:06:38,453 - __main__ - INFO - Pipeline stats: {'total_records': 72200, 'recent_records': 100, 'avg_recent_consumption': 2.69}
+2025-07-26 14:06:38,453 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 14:06:38,453 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 15:06:38 PDT)" executed successfully
+2025-07-26 15:06:38,383 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 16:06:38 PDT)" (scheduled at 2025-07-26 15:06:38.372404-07:00)
+2025-07-26 15:06:38,384 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 15:06:38,384 - __main__ - INFO - Weather: {'temperature': 26.8, 'humidity': 81.3, 'weather': 'simulated'}
+2025-07-26 15:06:38,393 - __main__ - INFO - Saved 100 records to database
+2025-07-26 15:06:38,427 - __main__ - INFO - Updated predictions: 188.15 kWh
+2025-07-26 15:06:38,447 - __main__ - INFO - Pipeline stats: {'total_records': 72300, 'recent_records': 100, 'avg_recent_consumption': 2.51}
+2025-07-26 15:06:38,447 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 15:06:38,447 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 16:06:38 PDT)" executed successfully
+2025-07-26 16:06:38,379 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 17:06:38 PDT)" (scheduled at 2025-07-26 16:06:38.372404-07:00)
+2025-07-26 16:06:38,380 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 16:06:38,380 - __main__ - INFO - Weather: {'temperature': 27.4, 'humidity': 78.0, 'weather': 'simulated'}
+2025-07-26 16:06:38,381 - __main__ - INFO - Anomaly generated for HH_082: 3.85 kWh
+2025-07-26 16:06:38,381 - __main__ - INFO - Anomaly generated for HH_083: 3.85 kWh
+2025-07-26 16:06:38,389 - __main__ - INFO - Saved 100 records to database
+2025-07-26 16:06:38,460 - __main__ - INFO - Updated predictions: 188.05 kWh
+2025-07-26 16:06:38,480 - __main__ - INFO - Pipeline stats: {'total_records': 72400, 'recent_records': 100, 'avg_recent_consumption': 1.69}
+2025-07-26 16:06:38,481 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 16:06:38,481 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 17:06:38 PDT)" executed successfully
+2025-07-26 17:06:38,383 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 18:06:38 PDT)" (scheduled at 2025-07-26 17:06:38.372404-07:00)
+2025-07-26 17:06:38,384 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 17:06:38,384 - __main__ - INFO - Weather: {'temperature': 22.6, 'humidity': 72.8, 'weather': 'simulated'}
+2025-07-26 17:06:38,385 - __main__ - INFO - Anomaly generated for HH_003: 15.27 kWh
+2025-07-26 17:06:38,385 - __main__ - INFO - Anomaly generated for HH_076: 18.50 kWh
+2025-07-26 17:06:38,404 - __main__ - INFO - Saved 100 records to database
+2025-07-26 17:06:38,438 - __main__ - INFO - Updated predictions: 234.18 kWh
+2025-07-26 17:06:38,459 - __main__ - INFO - Pipeline stats: {'total_records': 72500, 'recent_records': 100, 'avg_recent_consumption': 3.83}
+2025-07-26 17:06:38,459 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 17:06:38,459 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 18:06:38 PDT)" executed successfully
+2025-07-26 18:06:38,372 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 19:06:38 PDT)" (scheduled at 2025-07-26 18:06:38.372404-07:00)
+2025-07-26 18:06:38,374 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 18:06:38,374 - __main__ - INFO - Weather: {'temperature': 21.2, 'humidity': 66.8, 'weather': 'simulated'}
+2025-07-26 18:06:38,375 - __main__ - INFO - Anomaly generated for HH_004: 11.11 kWh
+2025-07-26 18:06:38,375 - __main__ - INFO - Anomaly generated for HH_041: 10.13 kWh
+2025-07-26 18:06:38,394 - __main__ - INFO - Saved 100 records to database
+2025-07-26 18:06:38,428 - __main__ - INFO - Updated predictions: 254.85 kWh
+2025-07-26 18:06:38,450 - __main__ - INFO - Pipeline stats: {'total_records': 72600, 'recent_records': 100, 'avg_recent_consumption': 2.75}
+2025-07-26 18:06:38,450 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 18:06:38,450 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 19:06:38 PDT)" executed successfully
+2025-07-26 19:06:38,380 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 20:06:38 PDT)" (scheduled at 2025-07-26 19:06:38.372404-07:00)
+2025-07-26 19:06:38,380 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 19:06:38,381 - __main__ - INFO - Weather: {'temperature': 19.2, 'humidity': 62.9, 'weather': 'simulated'}
+2025-07-26 19:06:38,390 - __main__ - INFO - Saved 100 records to database
+2025-07-26 19:06:38,423 - __main__ - INFO - Updated predictions: 264.38 kWh
+2025-07-26 19:06:38,444 - __main__ - INFO - Pipeline stats: {'total_records': 72700, 'recent_records': 100, 'avg_recent_consumption': 2.6}
+2025-07-26 19:06:38,445 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 19:06:38,445 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 20:06:38 PDT)" executed successfully
+2025-07-26 20:06:38,372 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 21:06:38 PDT)" (scheduled at 2025-07-26 20:06:38.372404-07:00)
+2025-07-26 20:06:38,374 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 20:06:38,375 - __main__ - INFO - Weather: {'temperature': 18.2, 'humidity': 70.5, 'weather': 'simulated'}
+2025-07-26 20:06:38,394 - __main__ - INFO - Saved 100 records to database
+2025-07-26 20:06:38,429 - __main__ - INFO - Updated predictions: 257.91 kWh
+2025-07-26 20:06:38,449 - __main__ - INFO - Pipeline stats: {'total_records': 72800, 'recent_records': 100, 'avg_recent_consumption': 2.46}
+2025-07-26 20:06:38,450 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 20:06:38,450 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 21:06:38 PDT)" executed successfully
+2025-07-26 21:06:38,375 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 22:06:38 PDT)" (scheduled at 2025-07-26 21:06:38.372404-07:00)
+2025-07-26 21:06:38,376 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 21:06:38,376 - __main__ - INFO - Weather: {'temperature': 10.6, 'humidity': 68.1, 'weather': 'simulated'}
+2025-07-26 21:06:38,396 - __main__ - INFO - Saved 100 records to database
+2025-07-26 21:06:38,430 - __main__ - INFO - Updated predictions: 256.13 kWh
+2025-07-26 21:06:38,450 - __main__ - INFO - Pipeline stats: {'total_records': 72900, 'recent_records': 100, 'avg_recent_consumption': 2.53}
+2025-07-26 21:06:38,451 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 21:06:38,451 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 22:06:38 PDT)" executed successfully
+2025-07-26 22:06:38,387 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 23:06:38 PDT)" (scheduled at 2025-07-26 22:06:38.372404-07:00)
+2025-07-26 22:06:38,388 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 22:06:38,388 - __main__ - INFO - Weather: {'temperature': 10.5, 'humidity': 71.5, 'weather': 'simulated'}
+2025-07-26 22:06:38,407 - __main__ - INFO - Saved 100 records to database
+2025-07-26 22:06:38,442 - __main__ - INFO - Updated predictions: 268.56 kWh
+2025-07-26 22:06:38,463 - __main__ - INFO - Pipeline stats: {'total_records': 73000, 'recent_records': 100, 'avg_recent_consumption': 2.74}
+2025-07-26 22:06:38,463 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 22:06:38,464 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-26 23:06:38 PDT)" executed successfully
+2025-07-26 23:06:38,381 - apscheduler.executors.default - INFO - Running job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-27 00:06:38 PDT)" (scheduled at 2025-07-26 23:06:38.372404-07:00)
+2025-07-26 23:06:38,382 - __main__ - INFO - Starting data pipeline run...
+2025-07-26 23:06:38,382 - __main__ - INFO - Weather: {'temperature': 10.3, 'humidity': 71.4, 'weather': 'simulated'}
+2025-07-26 23:06:38,402 - __main__ - INFO - Saved 100 records to database
+2025-07-26 23:06:38,436 - __main__ - INFO - Updated predictions: 232.13 kWh
+2025-07-26 23:06:38,456 - __main__ - INFO - Pipeline stats: {'total_records': 73100, 'recent_records': 100, 'avg_recent_consumption': 0.86}
+2025-07-26 23:06:38,456 - __main__ - INFO - Pipeline run completed successfully
+2025-07-26 23:06:38,457 - apscheduler.executors.default - INFO - Job "Energy Data Pipeline (trigger: interval[1:00:00], next run at: 2025-07-27 00:06:38 PDT)" executed successfully
+2025-07-27 15:47:38,665 - __main__ - INFO - ML model loaded successfully
+2025-07-27 15:47:38,679 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-27 15:47:38,680 - __main__ - INFO - Starting data pipeline run...
+2025-07-27 15:47:38,780 - __main__ - INFO - Weather: {'temperature': 17.7, 'humidity': 77, 'weather': 'Clouds'}
+2025-07-27 15:47:38,831 - __main__ - INFO - Saved 100 records to database
+2025-07-27 15:47:38,866 - __main__ - INFO - Updated predictions: 148.34 kWh
+2025-07-27 15:47:38,887 - __main__ - INFO - Pipeline stats: {'total_records': 73200, 'recent_records': 100, 'avg_recent_consumption': 1.96}
+2025-07-27 15:47:38,887 - __main__ - INFO - Pipeline run completed successfully
+2025-07-27 15:47:38,887 - __main__ - INFO - Data pipeline started. Running every 60 minutes...
+2025-07-27 15:47:38,888 - __main__ - INFO - Press Ctrl+C to stop
+2025-07-27 15:47:38,888 - apscheduler.scheduler - INFO - Added job "Energy Data Pipeline" to job store "default"
+2025-07-27 15:47:38,889 - apscheduler.scheduler - INFO - Scheduler started
